@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Учим фигуры</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/schet.css" rel="stylesheet" type="text/css">
+</head>
+<body vlink="#e4ecf0">
+    <script src="js/script_schet.js"></script>
+    <header class="menu-main">        
+        <p class = "header_text">ПО<font color="#2a4fb5">И</font>ГР<font color="#feb386">А</font>ЕМ?</p>
+        <ul >
+          <li><a href="index.html" class="current">Главная</a></li>
+          <li><a href="rules.html">Правила</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+        </ul>
+    </header>
+    <form >
+    <p class="header_text1" style="color:white;">Уровень 8</p>
+    <div class="container">
+<p class="header_text1" style="color:#9d999d;">Выбери все картинки, на которых изображено <font size="5px" color="#606060">три предмета</font></p>
+    
+    <div class="line">
+    <br>
+        <div><div type="button" class="square_photo" onclick="changeOpacity1_8()" id=fig_1 style="background-image:url(img/balls.jpeg);"></div></div>
+    <br>
+        <div><div type="button" class="square_photo" onclick="changeOpacity2_8()" id=fig_2 style="background-image:url(img/bant.jpeg);"></div></div>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+      <div><div type="button" class="square_photo" onclick="changeOpacity3_8()" id=fig_3 style="background-image:url(img/horse.jpeg);"></div></div>
+    <br>
+        <div><div type="button" class="square_photo" onclick="changeOpacity4_8()" id=fig_4 style="background-image:url(img/birds.jpeg);"></div></div>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+         <div><div type="button" class="square_photo" onclick="changeOpacity5_8()" id=fig_5 style="background-image:url(img/candy.png); background-color: white;"></div></div>
+    <br>
+         <div><div type="button" class="square_photo" onclick="changeOpacity6_8()" id=fig_6 style="background-image:url(img/dogs.jpeg);"></div></div>
+    <br>
+        </div></div>
+    
+
+   <input class="button_style" type="text" id=result value=0 style="display:none; border-color: transparent; background-color:transparent; color: #2a4fb5;">
+ <button type="button" class="button_style" id="calc" onclick="resultFunc_8()">Проверить</button>
+        <button type="reset" class="button_style" id="reset" onclick="resetFunc_8()" style="display:none;">Пройти заново</button>
+        
+    <a class="button_style" id="kn_sl" style="display:none;" href="index.html">Завершить</a>
+            
+        
+     
+     
+</form>
+
+    <footer class="footer">
+       <p> <a href="#" title="Вернуться к началу" class="f_button">Вернуться наверх страницы</a></p>
+        <p><a href="index.html" class="f_button">Главная</a></p>
+        <p><a href="rules.html" class="f_button">Правила</a></p>
+        <p><a href="achiev.html" class="f_button">Достижения</a></p>
+        </footer>
+
+
+    
+</body>
+</html>

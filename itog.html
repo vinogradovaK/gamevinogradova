@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Итоговая игра</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/itog.css" rel="stylesheet" type="text/css">
+</head>
+<body link="white" vlink="white" alink="white">
+    <header class="menu-main">        
+        <p class = "header_text">ПО<font color="#2a4fb5">И</font>ГР<font color="#feb386">А</font>ЕМ?</p>
+        <ul >
+          <li><a href="index.html" class="current">Главная</a></li>
+          <li><a href="rules.html">Правила</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+        </ul>
+    </header> 
+    
+    <div class="autorization">
+        
+        <div><p class="autorization_text">Имя: <a id="username" type="text"></a> </p></div><div><input value="" id="input_str" type="text" style="display:none;"/></div><div><button type="button" id="player" onclick="changeUser()" class="button_style">Сменить игрока</button></div><div><button type="button" id="ok" onclick="okEnter()" class="button_style" style="display:none;"><a href="itog.html">ок</a></button></div>
+    </div>
+    <div id="app"></div>
+    <p class="header_text1" style="color:#9d999d;" id="task">Перетащи все <font size="5px" color="#606060" id="paragraph"></font> на белое поле</p>
+    
+    <div class="container" id="contain">
+
+    <div class="box1" id="b1">
+    <div class="line">
+        <div class="outFig"><div class="outFig" id="outside1"><div id="fig1" onmousedown="changeLocation1();"></div></div></div>
+        <div class="outFig"><div class="outFig" id="outside2"><div id="fig2" onmousedown="changeLocation2();"></div></div></div>
+        <div class="outFig"><div class="outFig" id="outside3"><div id="fig3" onmousedown="changeLocation3();"></div></div></div></div>
+    <div class="line">
+        <div class="outFig"><div class="outFig" id="outside4"><div id="fig4" onmousedown="changeLocation4();"></div></div></div>
+        <div class="outFig"><div class="outFig" id="outside5"><div id="fig5" onmousedown="changeLocation5();"></div></div></div>
+        <div class="outFig"><div class="outFig" id="outside6"><div id="fig6" onmousedown="changeLocation6();"></div>
+        </div></div></div></div>
+        <div class="box2" id="b2">
+        <div class="droppable" id="answer_win"><p><span id="my_timer" style="color: #606060; font-size: 150%; font-weight: bold;"></span></p></div>
+        </div>
+    </div>
+    <div class="container_bottom">
+    <p class="autorization_text" style="display:none;" id="result_p">Всего баллов: <a id="result_a" type="text"></a></p>
+    <button type="button" class="button_style" id="calc" onclick="checkResult()">Проверить</button>
+    <button type="button" class="button_style" id="kn_sl" style="display:none;" onclick="newRound()"><a href="itog.html">Далее</a></button></div>
+    
+    <footer class="footer">
+       <p> <a href="#" title="Вернуться к началу" class="f_button">Вернуться наверх страницы</a></p>
+        <p><a href="index.html" class="f_button">Главная</a></p>
+        <p><a href="rules.html" class="f_button">Правила</a></p>
+        <p><a href="achiev.html" class="f_button">Достижения</a></p>
+        </footer>
+
+<script src="js/script_itog.js"></script>
+    
+</body>
+</html>

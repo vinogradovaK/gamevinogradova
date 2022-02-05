@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Учимся играя</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/rules.css" rel="stylesheet" type="text/css">
+</head>
+<body  link="#e4ecf0" vlink="#e4ecf0">
+    <script src="js/script_rules.js"></script>
+    <header class="menu-main">        
+        <p class = "header_text">ПО<font color="#2a4fb5">И</font>ГР<font color="#feb386">А</font>ЕМ?</p>
+        <ul >
+          <li><a href="index.html" class="current">Главная</a></li>
+          <li><a href="rules.html">Правила</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+        </ul>
+    </header>
+    <p class = "header_text1" style="color:#9d999d; font-weight: bold;" >Привет! Это игра на запоминание цветов, фигур и цифр. Здесь ты можешь проверить свои знания, если нажмешь на любой элемент 2 раза!</p>
+    <div class="container">
+        <p class="header_text1" style="color:#9d999d;">Цвета</p>
+        <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor1()" id=fig_1 style="background-color:red;"></div>
+            <p class="header_text1" id="txt1" style="color:transparent;">красный</p>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+      <div type="button" class="square" ondblclick="changeColor2()" id=fig_2 style="background-color:blue;"></div>
+        <p class="header_text1" id="txt2" style="color:transparent;">синий</p>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor3()" id=fig_3 style="background-color:green;"></div>
+        <p class="header_text1" id="txt3" style="color:transparent;"
+            >зеленый</p>
+    <br>
+        </div>
+        <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor4()" id=fig_4 style="background-color:yellow;"></div>
+            <p class="header_text1" id="txt4" style="color:transparent;"
+            >желтый</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor5()" id=fig_5 style="background-color:purple;"></div>
+        <p class="header_text1" id="txt5" style="color:transparent;"
+            >фиолетовый</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor6()" id=fig_6 style="background-color:black;"></div>
+        <p class="header_text1" id="txt6" style="color:transparent;"
+            >черный</p>
+    <br>
+            
+        </div></div>
+    <div class="container">
+        <p class="header_text1" style="color:#9d999d;">Фигуры</p>
+        <div class="line">
+    <br>
+        <div type="button" class="triangle" ondblclick="changeColor7()" id=fig_7 style="border-bottom: 120px solid #feb386;"></div>
+            <p class="header_text1" id="txt7" style="color:transparent;"
+            >треугольник</p>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+      <div type="button" class="square" ondblclick="changeColor8()" id=fig_8 style="background-color:#2a4fb5;"></div>
+        <p class="header_text1" id="txt8" style="color:transparent;"
+            >квадрат</p>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="round" ondblclick="changeColor9()" id=fig_9 style="background-color:#606060;"></div>
+        <p class="header_text1" id="txt9" style="color:transparent;"
+            >круг</p>
+    <br>
+        </div>
+        </div>
+    <div class="container">
+        <p class="header_text1" style="color:#9d999d;">Цифры</p>
+        <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor10()" id=c_1 style="background-image:url(img/1_green.png); background-size: 85%;"></div>
+            <p class="header_text1" id="txt10" style="color:transparent;"
+            >один</p>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+      <div type="button" class="square" ondblclick="changeColor11()" id=c_2 style="background-image:url(img/2_purple.png); background-size: 98%;"></div>
+        <p class="header_text1" id="txt11" style="color:transparent;"
+            >два</p>
+    <br>
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor12()" id=c_3 style="background-image:url(img/3_black.png); background-size: 99%;"></div>
+        <p class="header_text1" id="txt12" style="color:transparent;"
+            >три</p>
+    <br>
+        </div>
+        <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor13()" id=c_4 style="background-image:url(img/4_orange.png); background-size: 102%;"></div>
+            <p class="header_text1" id="txt13" style="color:transparent;"
+            >четыре</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor14()" id=c_5 style="background-image:url(img/5_green.png); background-size: 89%;"></div>
+        <p class="header_text1" id="txt14" style="color:transparent;"
+            >пять</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor15()" id=c_6 style="background-image:url(img/6_purple.png); background-size: 102%;"></div>
+        <p class="header_text1" id="txt15" style="color:transparent;"
+            >шесть</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor16()" id=c_7 style="background-image:url(img/7_black.png); background-size: 81%;"></div>
+        <p class="header_text1" id="txt16" style="color:transparent;"
+            >семь</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor17()" id=c_8 style="background-image:url(img/8_orange.png); background-size: 100%;"></div>
+        <p class="header_text1" id="txt17" style="color:transparent;"
+            >восемь</p>
+    <br>
+            
+        </div>
+    <div class="line">
+    <br>
+        <div type="button" class="square" ondblclick="changeColor18()" id=c_9 style="background-image:url(img/9_green.png); background-size: 92%;"></div>
+        <p class="header_text1" id="txt18" style="color:transparent;"
+            >девять</p>
+    <br>
+            
+        </div></div>
+
+    <footer class="footer">
+       <p> <a href="#" title="Вернуться к началу" class="f_button">Вернуться наверх страницы</a></p>
+        <p><a href="index.html" class="f_button">Главная</a></p>
+        <p><a href="rules.html" class="f_button">Правила</a></p>
+        <p><a href="achiev.html" class="f_button">Достижения</a></p>
+        </footer>
+
+
+    
+</body>
+</html>
